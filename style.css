@@ -94,3 +94,22 @@ li {
     color: #457b9d;
     margin-bottom: 8px;
 }
+
+@media (max-width: 600px) {
+    body {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    .profile-card,
+    .content-card {
+        padding: 20px;
+    }
+}
